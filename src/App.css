@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #70fadc;
+  border: 1px solid #70cefa;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.color-card {
+  width: 20vw;
+  height: 20vw;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.color-cards-list {
+  display: flex;
+}
